@@ -17,18 +17,18 @@ import { DropdownModule } from 'primeng/components/dropdown/dropdown';
 import { InputMaskModule } from 'primeng/components/inputmask/inputmask';
 
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
+import { CoreModule } from './core/core.module';
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    NavbarComponent,
+    AppComponent
   ],
   imports: [
     FormsModule,
     BrowserModule,
     BrowserAnimationsModule,
+    CoreModule,
     LancamentosModule,
     PessoasModule
   ],
